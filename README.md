@@ -15,7 +15,7 @@ Streams JSON messages from a Python producer to a Dockerized consumer, ingests i
 
 ---
 
-## 🔧 Stack Overview
+##  Stack Overview
 
 - **Kafka + ZooKeeper**: Message broker and coordination
 - **MongoDB**: Document storage
@@ -26,7 +26,7 @@ Streams JSON messages from a Python producer to a Dockerized consumer, ingests i
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Clone the repo
 
@@ -50,13 +50,13 @@ python producer.py
 
 ---
 
-## 📊 Observability
+##  Observability
 
 Visit [http://localhost:9000](http://localhost:9000) to inspect Kafka topics via Kafdrop.
 
 ---
 
-## 🗃️ MongoDB Validation
+##  MongoDB Validation
 
 Connect to the MongoDB container:
 
@@ -73,7 +73,7 @@ db.employees.find().pretty()
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 employee_streams/
@@ -89,7 +89,7 @@ employee_streams/
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Ensure port `27017` is free before starting MongoDB container.
 - Kafdrop runs on port `9000` (HTTP only).
@@ -97,13 +97,13 @@ employee_streams/
 
 ---
 
-## 🪪 License
+##  License
 
 MIT — feel free to fork, adapt, and build on it.
 
 ---
 
-## 💥 Built by MainaMurage
+##  Built by MainaMurage
 
 Backend architect. Pipeline whisperer. Container conjurer.  
 This repo is part of a growing constellation of real-time data systems — engineered with precision, resilience, and a touch of swagger.
